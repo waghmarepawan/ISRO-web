@@ -63,7 +63,8 @@
 
 .partition-row {
   display: flex;
-  gap: 24px;
+  gap: 14px;
+    width: 100%;
   margin: 20px 0;
 }
 
@@ -152,4 +153,5 @@
       color: white;
       font-family: Arial, sans-serif;
       
+
     }
