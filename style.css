@@ -23,7 +23,7 @@
    
 }
 .page{
-    width: 70%;
+    width: 68%;
    display: flex;
 
    justify-content: space-evenly;   
@@ -45,7 +45,7 @@
 }
 
 .search{
-
+     width: 30%;
     height: 30px;
     border-radius: 10px;
     border: none;
@@ -85,7 +85,10 @@
 .isro-portals {
       background-color: #001a4d; 
       padding: 20px;
-    
+      
+     align-items: center;
+     justify-content: center;
+     justify-items: center;
     }
     .imgs{
           text-align: center;
