@@ -94,7 +94,8 @@
     .imgs{
           text-align: center;
       display: flex;
-      gap: 40px;
+        justify-content: center;
+      gap: 10px;
       flex-wrap: wrap;
     }
 
@@ -155,3 +156,4 @@
       
 
     }
+
