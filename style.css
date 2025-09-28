@@ -59,6 +59,7 @@
 .video-loop>video{
     width: 100%;
     padding: 1px 0px;
+
 }
  .parent {
   
@@ -110,11 +111,14 @@
 
 
 
+
+
+
 .partition-row {
   display: flex;
   gap: 14px;
-    width: 100%;
   margin: 20px 0;
+  width: 100%;
 }
 
 .partition-left,
@@ -134,16 +138,17 @@
 
 .isro-portals {
       background-color: #001a4d; 
-      padding: 20px;
+     
       
+      width: 100%;
      align-items: center;
-     justify-content: center;
+      
      justify-items: center;
     }
     .imgs{
           text-align: center;
       display: flex;
-        justify-content: center;
+      justify-content: center;
       gap: 10px;
       flex-wrap: wrap;
     }
@@ -203,7 +208,4 @@
       color: white;
       font-family: Arial, sans-serif;
       
-
     }
-
-
