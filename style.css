@@ -60,6 +60,55 @@
     width: 100%;
     padding: 1px 0px;
 }
+ .parent {
+  
+      position: relative; /* Needed for absolute children */
+      overflow: hidden;   /* Prevent shutters from overflowing */
+    }
+
+
+
+
+
+ #shutter1{
+         height: 100%;
+      width: 50%;
+      background-image: url("curtain-left.png");
+       background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      transition: width 5s ease-in;
+    }
+     #shutter2 {
+      height: 100%;
+      width: 50%;
+      background-image: url("curtain-right.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      transition: width 5s ease-in;
+    }
+
+    #shutter1 {
+      position: absolute;
+      left: 0;
+    }
+
+    #shutter2 {
+      right: 0; /* Fixed */
+    }
+
+    .parent:hover #shutter1 {
+      width: 20px;
+    }
+
+    .parent:hover #shutter2 {
+      width: 20px;
+    }
+
+
 
 .partition-row {
   display: flex;
@@ -156,4 +205,5 @@
       
 
     }
+
 
